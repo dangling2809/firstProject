@@ -5,7 +5,19 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<div id="top_nav">
-    Naviagtion Goess Here............................
+<div class="row-2">
+    <div class="indent">
+        <!-- header-box begin -->
+        <div class="header-box">
+            <div class="inner">
+                <ul class="nav">
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- header-box end -->
+    </div>
 </div>

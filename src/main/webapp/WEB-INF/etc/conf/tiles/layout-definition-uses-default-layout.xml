@@ -7,13 +7,13 @@
         <put-attribute name="pageTitle">Home</put-attribute>
         <put-attribute name="header">/WEB-INF/views/elements/default/header.jsp</put-attribute>
         <put-attribute name="topNavigation">/WEB-INF/views/elements/default/navigation.jsp</put-attribute>
-        <put-attribute name="body">/WEB-INF/views/gateway/userLogin.jsp</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/pages/index.html</put-attribute>
         <put-attribute name="footer">/WEB-INF/views/elements/default/footer.jsp</put-attribute>
     </definition>
 
-    <definition name="default.dashboard" extends="default">
-        <put-attribute name="pageTitle">About Us</put-attribute>
-        <put-attribute name="body">/WEB-INF/views/elements/default/defaultBody.jsp</put-attribute>
+    <definition name="default.index" extends="default">
+        <put-attribute name="pageTitle">index</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/pages/index.jsp</put-attribute>
     </definition>
 
 </tiles-definitions>
