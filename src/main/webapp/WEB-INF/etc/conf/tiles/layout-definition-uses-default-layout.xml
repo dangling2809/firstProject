@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="default" template="/WEB-INF/views/layouts/default-layout.jsp">
+        <put-attribute name="pageTitle">Home</put-attribute>
+        <put-attribute name="header">/WEB-INF/views/elements/default/header.jsp</put-attribute>
+        <put-attribute name="topNavigation">/WEB-INF/views/elements/default/navigation.jsp</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/gateway/userLogin.jsp</put-attribute>
+        <put-attribute name="footer">/WEB-INF/views/elements/default/footer.jsp</put-attribute>
+    </definition>
+
+    <definition name="default.dashboard" extends="default">
+        <put-attribute name="pageTitle">About Us</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/elements/default/defaultBody.jsp</put-attribute>
+    </definition>
+
+</tiles-definitions>
