@@ -23,12 +23,12 @@
 
 <div class="row-1">
     <div class="wrapper">
-        <div class="logo">
-            <h1><a href="#">Sample</a></h1>
-            <em></em> <strong></strong> </div>
+        <div class="logo"  style="font-family: cursive">
+            <h3>Sample</h3>
+        </div>
         <div class="phones">9999999999<br />
             0000000000 </div>
-     <%--   <div id="featured_slide">
+      <%--  <div id="featured_slide">
             <div id="piecemaker"> <img src="<%=request.getContextPath()%>/images/header-bg1.jpg" alt="" /> </div>
         </div>--%>
     </div>

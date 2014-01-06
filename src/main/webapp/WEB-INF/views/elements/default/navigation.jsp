@@ -11,10 +11,10 @@
         <div class="header-box">
             <div class="inner">
                 <ul class="nav">
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="${pageContext.request.contextPath}/show/index" class="current">Home</a></li>
+                    <li><a href="${pageContext.request.contextPath}/show/gallery">Gallery</a></li>
+                    <li><a href="${pageContext.request.contextPath}/show/booking">Booking</a></li>
+                    <li><a href="${pageContext.request.contextPath}/show/location">Location</a></li>
                 </ul>
             </div>
         </div>

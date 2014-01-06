@@ -15,7 +15,7 @@
         <li><a href="#">Booking</a></li>
     </ul>
     <div class="wrapper">
-        <div class="fleft">Copyright &copy; 2009 <a href="#">Name Here</a>. All Rights Reserved</div>
-        <div class="fright">Designed by TemplateMonster - <a href="http://www.templatemonster.com/">website templates</a> provider</div>
+        <div class="fleft" style="color: #000000">Copyright &copy; 2014 <a href="#">Name Here</a>. All Rights Reserved</div>
+        <div class="fright" style="color: #000000">Designed by PS Software Pvt. Ltd. Pune</div>
     </div>
 </div>

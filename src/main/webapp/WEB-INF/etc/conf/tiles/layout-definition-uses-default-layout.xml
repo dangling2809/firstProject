@@ -7,13 +7,29 @@
         <put-attribute name="pageTitle">Home</put-attribute>
         <put-attribute name="header">/WEB-INF/views/elements/default/header.jsp</put-attribute>
         <put-attribute name="topNavigation">/WEB-INF/views/elements/default/navigation.jsp</put-attribute>
-        <put-attribute name="body">/WEB-INF/views/pages/index.html</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/pages/index.jsp</put-attribute>
         <put-attribute name="footer">/WEB-INF/views/elements/default/footer.jsp</put-attribute>
     </definition>
 
     <definition name="default.index" extends="default">
-        <put-attribute name="pageTitle">index</put-attribute>
+        <put-attribute name="pageTitle">Home</put-attribute>
         <put-attribute name="body">/WEB-INF/views/pages/index.jsp</put-attribute>
     </definition>
+    
+     <definition name="default.gallery" extends="default">
+        <put-attribute name="pageTitle">Gallery</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/pages/gallery.jsp</put-attribute>
+    </definition>
+    
+     <definition name="default.booking" extends="default">
+        <put-attribute name="pageTitle">Booking</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/pages/booking.jsp</put-attribute>
+    </definition>
+    
+     <definition name="default.location" extends="default">
+        <put-attribute name="pageTitle">Location</put-attribute>
+        <put-attribute name="body">/WEB-INF/views/pages/location.jsp</put-attribute>
+    </definition>
+    
 
 </tiles-definitions>
