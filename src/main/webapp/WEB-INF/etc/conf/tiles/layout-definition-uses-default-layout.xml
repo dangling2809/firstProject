@@ -20,12 +20,6 @@
         <put-attribute name="pageTitle">Gallery</put-attribute>
         <put-attribute name="body">/WEB-INF/views/pages/gallery.jsp</put-attribute>
     </definition>
-    
-     <definition name="default.booking" extends="default">
-        <put-attribute name="pageTitle">Booking</put-attribute>
-        <put-attribute name="body">/WEB-INF/views/pages/booking.jsp</put-attribute>
-    </definition>
-    
      <definition name="default.location" extends="default">
         <put-attribute name="pageTitle">Location</put-attribute>
         <put-attribute name="body">/WEB-INF/views/pages/location.jsp</put-attribute>

@@ -21,16 +21,19 @@
     swfobject.embedSWF('<%=request.getContextPath()%>/piecemaker/piecemaker.swf', 'piecemaker', '950', '430', '10', null, flashvars, params, null);
 </script>
 
-<div class="row-1">
+<!--<div class="row-1">
     <div class="wrapper">
-        <div class="logo"  style="font-family: cursive">
-            <h3>Sample</h3>
+        <div class="logo">
+            <h3></h3>
+            <img src="<%=request.getContextPath()%>/images/logo31_small.png" alt="" />
         </div>
         <div class="phones">9999999999<br />
             0000000000 </div>
-      <%--  <div id="featured_slide">
+    <div id="featured_slide">
             <div id="piecemaker"> <img src="<%=request.getContextPath()%>/images/header-bg1.jpg" alt="" /> </div>
-        </div>--%>
+        </div>
     </div>
 
-</div>
+</div>-->
+
+<div id="logo"><h1><img src="<%=request.getContextPath()%>/images/logo_small.png" alt="" />Swayamwar Mangal Karyalaya</h1></div>

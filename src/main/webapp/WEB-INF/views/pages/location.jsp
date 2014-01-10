@@ -56,9 +56,9 @@
 </script>
 
 
-<div class="wrapper">
+<!--<div class="wrapper">
     <div class="aside maxheight">
-        <!-- box begin -->
+         box begin 
         <div class="box maxheight">
             <div>
                 <h4>Our location</h4>
@@ -75,7 +75,7 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <!-- box end -->
+         box end 
     </div>
     <div class="content">
         <div class="indent">
@@ -98,4 +98,35 @@
     </div>
 </div>
 
+</div>-->
+<div id="site_content">
+    <div id="left_content">
+        <h1>Our location</h1>
+        <img  alt="" src="<%=request.getContextPath()%>/images/2page-img10.jpg" />
+        <div >
+            <p>Our hotel is located in the most spectacular part of Prague - surrounded by boutiques, restaurants and luxurious shops.</p>
+            <p>Please feel free to come visit us at the following adress:</p>
+            <p>
+                Gazek st., 210
+                1-800-412-4556
+                1-800-542-6448
+            </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+        <div id="right_content" class="">
+          <div id="map-canvas" style="width: 500px; height: 300px;"></div>
+          <br>
+          <label>Enter Start Position Here: </label> <input type='text' id="source-address" class="margin"  /> <input class="margin" type='button' value="Get Route" onclick="calcRoute()"/>
+            <br>
+            <div>
+                <label>Mode of Travel: </label>
+                <select id="mode" onchange="calcRoute();" class="margin1" >
+                    <option value="DRIVING">Driving</option>
+                    <option value="WALKING">Walking</option>
+                    <option value="BICYCLING">Bicycling</option>
+                    <option value="TRANSIT">Transit</option>
+                </select>
+            </div>
+        </div>
 </div>
